@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div formato de construccion</title>
+</head>
+
+<body>
+
+    <!-- 
+            
+                ----------
+                    div
+                ----------
+
+                Sera el elemento de construccion arquitectonica basica, 
+                podra ser un ladrillo o un muro, donde podremos anidar tantos div, como nos
+                apetezca (sea necesario).
+                Caracteristica:
+                Es definido como una etiqueta de apertura y cierre, asi como bloque 
+                (realizara un salto de linea al cierre de la etiqueta div.)
+    
+                Ademas en este ejemplo trataremos el mundo de los colores.
+
+
+         -->
+
+    <div>
+        <!-- atributo general de estilos styles="" -->
+        <h3 style="font-size: 100px;">
+            <span style="color: red;">L</span>OS <span style="color: aqua;">C</span><span
+                style="color: blue;">O</span><span style="color: blanchedalmond;">L</span><span
+                style="color: blueviolet;">O</span><span style="color: aquamarine;">R</span><span
+                style="color: blanchedalmond;">E</span><span style="color: beige;">S</span>
+            <!-- 
+                El span sera un elemento de amalgama horizontal,construira no en vertical como el
+                div, sino en horizontal.
+             -->
+        </h3>
+
+        <!-- 
+                Despues del puntoy coma; del valor del style, podremos añadir otro valor,...
+                y asi sucesivamente.
+             -->
+        <P style="font-size: large ; color:rgb(0, 0, 125) ;">
+            Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+            Eligendi, incidunt.
+        </P>
+        <!-- 
+                RGB, sera el patron de medida del solido del color, estimado 
+                por la acotacion de los valores del 0 al 255, basado en su modelo 
+                matematico de la longitud de onda.
+                Sintaxis:
+                rgb (valor rojo, valor verde, vlor azul)
+              -->
+
+    </div>
+    <hr style="width: 80%;">
+    <div>
+        <P style="font-size: large ; color:rgba(0, 0, 125,0.5) ; text-align: center;">
+            Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+            Eligendi, incidunt.
+
+        </P>
+        <!-- 
+                RGB, el mismo patron que el anterior añadiendo el valor alpha con la
+                misma configuracion de 0 a 255, basandose en la indice de transparencia
+                frente a su opacidad o solidez.
+                Sintaxis:
+                rgba (valor rojo, valor verde, valor azul, valor opacidad-alpha-)
+             -->
+
+        <div>
+            <!-- 
+            Colores HEXADECIMALES, Significa otra manera de clasificar
+            el espectro de los colores, con la diferencia que se calculan en base 16; 
+            con referencias alphanumericas, es decir, acotacion de dos numeros (xx) del 0 al 9
+            y dos letras (nn) del A a la F.
+         -->
+            <hr style="width: 80%;">
+            <P style="font-size: large ; color: darkorange ; text-align: right;">
+                Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                Eligendi, incidunt.
+            </P>
+        </div>
+        <!-- https://htmlcolorcodes.com/ -->
+        <hr style="width: 80%;">
+        <p style="text-align: justify;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, id!
+            Dolorem repellat distinctio beatae, quidem ullam recusandae numquam saepe dicta!
+            Ipsam vitae nemo ad neque voluptatibus dignissimos quae eum consectetur?
+            Autem ipsam quasi et odit veritatis similique amet, commodi voluptatibus?
+            Aperiam ullam nostrum pariatur perferendis perspiciatis neque fugit vel laborum.
+            Ad suscipit consectetur recusandae similique expedita, necessitatibus architecto maiores obcaecati!
+            Consequuntur molestias ab dolorem porro cumque totam ratione assumenda iure.
+            Eveniet tempora eligendi unde dolor nulla, assumenda veniam suscipit beatae.
+            Quidem, ipsum sit quod laudantium eius impedit at vero iure!
+            Tempore ex atque nam dolorum natus eius tempora temporibus minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quod?
+            Labore magni fugit ut eligendi minus laboriosam vero omnis tempore.
+            Fuga doloribus, voluptas animi eveniet explicabo mollitia obcaecati earum delectus.
+            Placeat dolore minus laborum aut? Pariatur amet facere sequi nisi?
+            Ducimus impedit quos blanditiis asperiores nisi a? Quibusdam, amet sapiente!
+            Odio ut veniam magni aliquam non aspernatur rem saepe quia?
+            Cupiditate nobis ipsa sed maxime et sit natus voluptatem quod!
+            Nobis cumque in exercitationem voluptas error veritatis, velit dignissimos sed.
+            Corporis, quisquam deleniti tempore maxime facere voluptatem excepturi assumenda numquam.
+            Ut, non illum laborum dolores odio facilis quibusdam possimus laudantium!
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+
+<body>
+    <div>
+
+        <!-- 
+    ................
+         Listas
+    ................
+
+    A.- Listas Ordenadas
+    presenta elementos de forma ordenada (numerica o alpha)
+    etiqueta contenedora
+    sintaxis:
+        <ol>
+            <li></li>
+        </ol>
+
+        Atributos asociados!
+        type=""
+        Valores:
+        "1"
+        "a"
+        "I"
+        "i"
+
+
+
+
+    
+    -->
+
+        <ol>
+
+            <h2>Ejemplos de Listas</h2>
+            <h3>Listas Ordenadas</h3>
+            <h4> Ejemplo 1 : Listas simples o sencillas </h4>
+
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+
+        </ol>
+        <hr width="80">
+        <h4> Ejemplo 2: Listas Anidadas </h4>
+        <ol type="a">
+            <li>Luis
+                <ol>
+                    <li>Maite</li>
+                    <ol type="A">
+                        <li>Damon</li>
+                    </ol>
+                    <li>Luis </li>
+                </ol>
+            </li>
+
+            <li>Carmen</li>
+            <li>Dolores</li>
+            <li>Jaime <!-- Padre -->
+                <ol>
+                    <li>
+                        Juan <!--Hijo -->
+                        <ol>
+                            <li>Pedro <!-- Bisnieto --></li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+
+        <hr width="80">
+        <!-- B.- Listas no ordenadas
+            Elementos donde el orden noes prioritario. asociado a viñetas
+            Sintaxis: 
+            <ul>
+                    <li></li>
+            </ul>
+            Atributos asociados:
+            Type=""
+            Valores:
+            Circle, square, disk
+    -->
+
+        <ul>
+            <li>Vino</li>
+            <li>Refresco</li>
+            <li>Patatas Fritas</li>
+        </ul>
+        <hr width="80">
+        <h4>Ejemplo 2 : Sin Listar</h4>
+
+        <!-- 
+        Atributo general para sustituir a los atributos independientes.
+        Sintaxis:
+        styles=""
+     -->
+
+        <ul style="list-style: none; text-align: center;">
+
+            <li>🚗Ford</li>
+            <li>🚘Masseratti</li>
+            <li>🚒Jeep</li>
+
+        </ul>
+        <hr style="width: 80%;">
+        <h4>Ejemplo 3 : Listas Glosario </h4>
+
+        <!-- B.1: Glosarios 
+    
+    
+    -->
+
+        <dl>
+            <dt style="color: red; ">HTML</dt>
+            <dd>Metalenguaje para la visualizacion en DocType</dd>
+            <dt style="color: aquamarine;">CSS</dt>
+            <dd>Lenguaje generador de estilos de aplicacion en cascada, de manera independiente</dd>
+            <dt style="font-weight: bold;">JS</dt>
+            <dd>Lenguaje de ejecucion dinamica en el entorno cliente</dd>
+
+        </dl>
+
+        <!-- 
+        C.- LISTAS DESPLEGABLES : Auna un conjunto de una lista
+        Sintaxis:
+        a) <select>
+                <option></option>
+            </select>
+
+        b)<select>
+            <>
+
+     -->
+
+        <hr style="width: 80%;">
+        <h3>Listas Desplegables</h3>
+        <h4> Ejemplo 1 : Desplegable sencilla </h4>
+        <div style="text-align: center;">
+            <select>
+                <option value="">-----Seleccion-----</option>
+                <option value="">JavaScript</option>
+                <option value="">CSS3</option>
+                <option value="">HTML5</option>
+            </select><br>
+            <h4>Ejemplo 2: Desplegable Completo</h4>
+            <select name="" id=""></select>
+
+        </div>
+        <div style="text-align: center;">
+            <select>
+                <optgroup label="1º Opcion">
+                    <option style="color: blue;">JavaScript</option>
+                    <option style="color: antiquewhite;">CSS3</option>
+                    <option style="color: aqua;">HTML5</option>
+                </optgroup>
+                <optgroup style="color: blue;" label="2º option">
+                    <option value="">Python</option>
+                    <option value="">C++</option>
+                    <option value="">Kotlin</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>

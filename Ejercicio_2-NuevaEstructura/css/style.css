@@ -1,0 +1,59 @@
+body {
+    background-color: blanchedalmond;
+}
+
+div {
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 980px;
+    height: 120px color;
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+    float: left;
+}
+
+nav {
+    width: 980px;
+    height: 80px;
+    background-color: navy;
+    color: rgb(241, 237, 245);
+    float: left;
+}
+
+section {
+    width: 780px;
+    height: 420px;
+    background-color: rgb(23, 23, 158);
+    color: aliceblue;
+    float: left;
+}
+
+article {
+    width: 780px;
+    background-color: lightsalmon;
+    height: 210px;
+    float: left;
+    border-bottom: 2px solid black;
+}
+
+aside {
+    width: 200px;
+    height: 210px;
+    background-color: blueviolet;
+    float: right;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+
+footer {
+    width: 980px;
+    height: 80px;
+    float: left;
+    background-color: rgb(255, 6, 22);
+    color: whitesmoke;
+}
